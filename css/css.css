@@ -1,0 +1,18 @@
+img.film_affiche {
+    width: 20%;
+}
+
+img.profil_img {
+    width: 25px;
+    float: right;
+    margin: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li.virgule a:not(:last-child):after {
+    content: " , ";
+    color: white;
+}
